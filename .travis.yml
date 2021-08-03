@@ -1,5 +1,4 @@
 language: java
-arch: arm64-graviton2
 jdk:
     - openjdk10
     - openjdk11
@@ -7,5 +6,4 @@ os: linux
 matrix:
     include:
         - dist: trusty
-        - dist: xenial
         - dist: bionic
