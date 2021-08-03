@@ -3,5 +3,8 @@ jdk:
     - openjdk10
     - openjdk11
 os: linux
-dist:
-    - xenial
+matrix:
+    include:
+        - dist: trusty
+        - dist: xenial
+        - dist: bionic
