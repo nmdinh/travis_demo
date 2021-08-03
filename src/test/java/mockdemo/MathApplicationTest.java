@@ -63,7 +63,7 @@ public class MathApplicationTest {
 		
 		when(calcService.multiply(0.0,10.0)).thenReturn(0.00);
 		//test the multiply functionality
-		Assert.assertEquals(mathApplication.multiply(0.0, 10.0),200.0,0.0);
+		Assert.assertEquals(mathApplication.multiply(0.0, 10.0),0.0,0.0);
 	}
 	
 	@Test
